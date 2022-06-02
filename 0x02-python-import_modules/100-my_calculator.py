@@ -14,18 +14,15 @@ if __name__ == "__main__":
     b = int(argv[3])
     op = argv[2]
 
-    if op == "+":
-        print("{} {} {} = {}".format(a, op, b, add(a, b)))
-        exit(0)
-    elif op == "-":
-        print("{} {} {} = {}".format(a, op, b, sub(a, b)))
-        exit(0)
-    elif op == "*":
-        print("{} {} {} = {}".format(a, op, b, mul(a, b)))
-        exit(0)
-    elif op == "/":
-        print("{} {} {} = {}".format(a, op, b, div(a, b)))
-        exit(0)
-    else:
+    ops = {
+        "+": add,
+        "-": sub,
+        "*": mul,
+        "/": div
+    }
+
+    if op not in list(ops.keys()):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
+
+    print("{} {} {} = {}".format(a, op, b, ops[op](a, b)))

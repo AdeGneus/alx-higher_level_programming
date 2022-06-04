@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from urllib3 import Retry
-
-
 def max_integer(my_list=[]):
     if my_list == []:
         return None

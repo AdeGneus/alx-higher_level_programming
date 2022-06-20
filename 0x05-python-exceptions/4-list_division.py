@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-from typing import final
-
-
 def list_division(my_list_1, my_list_2, list_length):
     """Divides element by element 2 lists"""
 

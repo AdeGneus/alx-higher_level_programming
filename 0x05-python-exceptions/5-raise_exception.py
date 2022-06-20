@@ -5,4 +5,4 @@ from logging import exception
 
 def raise_exception():
     """Raise a type exception"""
-    exception()
+    raise TypeError

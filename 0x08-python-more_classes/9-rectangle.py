@@ -117,6 +117,6 @@ class Rectangle:
         Args:
             size (int): The size of the square
         Returns:
-            A square 
+            A square
         """
         return (cls(size, size))

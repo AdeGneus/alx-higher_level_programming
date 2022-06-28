@@ -13,7 +13,8 @@ Attributes:
     board (list): A list of lists representing the chessboard
     solutions (list): A list of lists containing the solution
 
-Solutions are printed in the format [[row, col], [row, col], [row, col], [row, col]]. Row and col represent where a queen must be placed on the chessboard
+Solutions are printed in the format [[row, col], [row, col], [row, col]].
+Row and col represent where a queen must be placed on the chessboard
 """
 
 import sys

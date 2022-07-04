@@ -3,9 +3,6 @@
 """Defines an empty class BaseGeometry."""
 
 
-from numpy import isin
-
-
 class BaseGeometry:
     """Represent base geometry."""
 

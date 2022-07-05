@@ -25,6 +25,3 @@ def pascal_triangle(n):
         temp.append(1)
         triangles.append(temp)
     return triangles
-
-
-print(pascal_triangle(5))
